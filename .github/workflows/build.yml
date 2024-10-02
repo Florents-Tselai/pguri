@@ -19,7 +19,7 @@ jobs:
       - run: |
           sudo apt update && sudo apt install liburiparser-dev
 
-      - run: make
+      - run: make all
       #        env:
       #          PG_CFLAGS: -Wall -Wextra -Werror -Wno-unused-parameter -Wno-sign-compare
       - run: |
